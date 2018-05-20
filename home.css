@@ -1,0 +1,101 @@
+.main{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	border-image:url(download.png);
+	border:2px;
+	border-color:#1a1a1a;
+	
+}
+.header{
+	background-color:#404040;
+	height:150px;
+	width:100%;
+	color:#ff8080;
+	background-image:url(HOG-05.jpg);
+
+}
+.section{
+	background-image:url(485870457.jpg);
+	width:100%;
+	margin:0px;
+}
+.test{
+	display:inline-block;
+	margin:10px;
+	background-color:#b3f0ff;
+	box-shadow:-5px -5px #ccc;
+	 border:10px dashed #9999ff;
+	 height:400px;
+	 width:250px;
+	 padding:10px;
+}
+.image{
+	height:250px;
+	width:200px;
+}
+.image1{
+	height:150px;
+	width:250px;
+	box-shadow:10px 10px #e6f2ff;
+}	
+.image:hover{
+	box-shadow:10px 10px #e6f2ff;
+	background-size:200px;
+	 transform:rotateZ(360deg);
+	transition-duration:2s;
+	transition-timing-function:ease-in-out;
+}
+.image1:hover{
+	 transform:rotateY(180deg);
+	transition-duration:2s;
+	transition-timing-function:ease-in-out;
+}
+h2{
+	color:#33ff77;
+}
+p{
+	font-size:12px;
+	text-align:justify;
+}
+.left{
+	float:left;
+	}
+.right{
+	float:right;
+	display:inline;
+}
+.footer{
+	height:100px;
+	max-width:100;
+	background-color:black;
+	color:white;
+}
+h1{
+	margin-top:40px:;
+	text-shadow:2px;
+}
+li{
+	display:inline;
+	color:white;
+	margin-left:3px;
+}
+button
+{
+	background-color:#ffe6ff;
+	color:#99b3ff;
+	height:30px;
+	width:80px;
+}
+h1:hover{
+	color:#ffb3ff;
+	transform:scale(1.5);
+
+}
+h2:hover{
+	transform:scale(1.1);
+	color:#8c8c8c;
+	transition-duration:0.9s;
+	transform:rotateY(360deg);
+
+}
