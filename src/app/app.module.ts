@@ -8,13 +8,15 @@ import { InventoryService } from './inventory.service';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ItemComponent } from './item/item.component';
+import { PaymentComponent } from './payment/payment.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ItemComponent
+    ItemComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,

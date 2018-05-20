@@ -43,5 +43,5 @@ export const INVENTORY = [
       "selected": false,
       "description" : "Raymond Men's Solid Casual Button Down Shirt",
       "imagename" : "../assets/2.jpg"
-    },
+    }
   ];
